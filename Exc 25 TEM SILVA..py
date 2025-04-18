@@ -1,0 +1,5 @@
+print('*-'*5)
+print('TEM \033[4;37mSILVA\033[m?')
+print('+-'*5)
+nome = input('Qual o seu nome? ')
+print ('Sua condição é \033[1;94m{}\033[m para ter "\033[1;37mSilva\033[m" no nome.'.format('Silva' in nome.title()))

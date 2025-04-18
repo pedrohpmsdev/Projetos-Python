@@ -1,0 +1,7 @@
+print('*'*12)
+print('\033[1;92mSANTO\033[m OU \033[1;91mNÃO\033[m')
+print('*'*12)
+cidade = input('Digite o \033[4mnome\033[m de sua cidade: ').strip().title()
+cidade = cidade.split()
+print('Sua \033[4mcidade\033[m começa com \033[4m{}\033[m.'.format(cidade[0]))
+print('Logo, sua \033[4mcidade\033[m é \033[1;94m{}\033[m para a condição "Começar com Santo".'.format('Santo' in cidade[0].title()))

@@ -1,0 +1,6 @@
+nome = input('Qual o seu \033[1;92mnome completo\033[m?')
+print('Seu \033[1;92nome\033[m com \033[1;91mletras maiúsculas\033[m é: \033[1;91m{}\033[m'.format(nome.strip().upper()))
+print('Seu \033[1;92nome\033[m com \033[1;94mletras minúsculas\033[m é: \033[1;94m{}\033[m'.format(nome.strip().lower()))
+c = nome.strip().split()
+print('Quantas \033[1;93mletras\033[m têm seu \033[1;92mnome\033[m \033[1;37msem os espaços\033[m: \033[1;93m{}\033[m'.format(len("".join(c))))
+print ('Quantas \033[1;93mletras\033[m têm o primeiro \033[1;92mnome\033[m: \033[1;93m{}\033[m'.format(len(c[0])))
